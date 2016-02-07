@@ -5,6 +5,9 @@
 
 A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
 
+##What to Use Moment.js for and When to Use It
+Moment.js is perfect for dealing with your everyday date manipulation needs which can include: formatting, parsing, detecting invalid dates, correcting invalid dates, and adding and subtracting dates. As a javascript developer, this library needs to be in your toolbox, especially if you are doing a lot with dates on the client-side. Without this helpful tool, you will be writing many lines of code to achieve the same result. Take for instance simply formatting the current date as 'YYYY-M-D' using Javascript's Date object. You would need to use three separate functions (getdate(), getMonth(), getFullYear()) and then finally concatenate each result. With Moment.js, you can use a new moment object and format as moment.format('YYYY-M-D'). To change to any other date format, simply input the correct format into the function. This is just one aspect into the vast ways one can use the library!
+
 ## [Documentation](http://momentjs.com/docs/)
 
 ## Port to ECMAScript 6 (version 2.10.0)
@@ -56,3 +59,5 @@ Moment.js is freely distributable under the terms of the [MIT license](https://g
 
 [travis-url]: http://travis-ci.org/moment/moment
 [travis-image]: http://img.shields.io/travis/moment/moment/develop.svg?style=flat
+
+test
